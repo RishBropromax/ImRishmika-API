@@ -13,7 +13,7 @@ async def telegraph(image,text):
         url = "https://telegra.ph/" + uf(image)[0]
         return url
     except Exception as e:
-        return f"https://techzbotsapi.herokuapp.com/logo?text={text}"
+        return f"https://imrishmika-api-2023.herokuapp.com/logo?text={text}"
 
 async def telegraph_simple(image):
     try:
