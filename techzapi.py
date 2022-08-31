@@ -13,12 +13,12 @@ app = FastAPI()
 @app.get("/")
 async def home():
     await add_to_db(3)
-    return {"status": "TechZBots - Api working fine..."}
+    return {"status": "ImRishmika API - Api working fine... Don,t Think About It..."}
 
 
 @app.get("/wall")
 async def get_wall(query: str):
-    "Get direct links of wallpapers"
+    "Get direct links of wallpapers.."
     data = await search_wall(query)
     await add_to_db(2)
 
@@ -53,7 +53,7 @@ async def get_unsplash(query: str):
 
 @app.get("/logo")
 async def make_logo(text: str, square: Optional[bool] = None):
-    "Generate a random logo"
+    "Generate a random logo..."
     text = text.replace("%20"," ").replace("+"," ").replace("_"," ").upper().strip()
     
     data = await generate_logo(text,str(square))
@@ -143,10 +143,10 @@ async def search_lyrics(query: str):
 
 @app.get("/thumb")
 async def generate_thumbnail(videoid: str, botname: Optional[str] = None):
-    "Generate thumbnail"
+    "Generate thumbnail.. \n Powerd By ImRishmika API"
 
     if not botname:
-      botname = "SiestaXMusic"
+      botname = "CatXGirl"
     thumb = await gen_thumb(videoid,botname)
     await add_to_db(1)
     return RedirectResponse(thumb)
