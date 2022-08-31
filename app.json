@@ -1,13 +1,14 @@
 {
-    "name": "TechZBots API",
-    "description": "TechZBots API",
+    "name": "ImRishmika API",
+    "logo": "https://telegra.ph/file/79ee63a32d8e38842dfa0.jpg",
+    "description": "ImRishmika API",
     "keywords": [
         "techzbots",
         "api"
     ],
-    "repository": "https://github.com/TechShreyash/TechZBotsAPI",
-    "website": "https://t.me/TechZBots",
-    "success_url": "https://github.com/TechShreyash/TechZBotsAPI",
+    "repository": "https://github.com/RishBropromax/ImRishmika-API",
+    "website": "https://t.me/AboutRishmika",
+    "success_url": "https://github.com/RishBropromax/ImRishmika-API",
     "buildpacks": [
         { 
             "url": "heroku/python"
