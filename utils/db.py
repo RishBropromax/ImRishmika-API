@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 
-MONGO_DB_URI = "mongodb+srv://techz:wall@techzwallbotdb.katsq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+MONGO_DB_URI = "mongodb+srv://rishbro:rishbro@cluster0.eiqoy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client.api.req
